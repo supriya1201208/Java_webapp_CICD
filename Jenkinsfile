@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/nevincleetus/java-webapp-cicd.git'
+        git  'https://github.com/nevincleetus/java-webapp-cicd.git'
       }
     }
     stage('Building image') {
